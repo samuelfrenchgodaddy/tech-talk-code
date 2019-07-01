@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc3d4309-ef73-4794-a191-f838d09437f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_beta_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PostToSocialMediaConditionalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InheritanceWithPolyDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/InheritanceWithPolyDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InheritanceWithPolyDemo/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PostToSocialMedia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PostToSocialMediaConditional.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dummy/FacebookClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dummy/IgStory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dummy/InstagramClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dummy/TwitterClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PostToSocialMediaConditional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PostToSocialMediaConditional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PostToSocialMediaConditionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PostToSocialMediaConditionalTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PostToSocialMediaConditional.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+            <state relative-caret-position="328">
+              <caret line="28" column="85" selection-start-line="28" selection-start-column="85" selection-end-line="28" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PostToSocialMediaConditionalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
+            <state relative-caret-position="60">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -99,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dummy/InstagramClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="210">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding>
                 <element signature="e#203#204#0" expanded="true" />
                 <element signature="e#243#244#0" expanded="true" />
@@ -112,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dummy/IgStory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="120">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding>
                 <element signature="e#146#147#0" expanded="true" />
                 <element signature="e#174#175#0" expanded="true" />
@@ -163,8 +148,8 @@
         <option value="$PROJECT_DIR$/src/PostToSocialMediaConditionalTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/PostToSocialMediaConditionalTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PostToSocialMediaConditional.java" />
         <option value="$PROJECT_DIR$/src/main/java/dummy/FacebookClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PostToSocialMediaConditional.java" />
         <option value="$PROJECT_DIR$/src/test/java/PostToSocialMediaConditionalTest.java" />
       </list>
     </option>
@@ -212,6 +197,13 @@
               <item name="InheritanceWithPolyDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InheritanceWithPolyDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InheritanceWithPolyDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PostToSocialMediaConditionalTest.postToSocialMedia">
+  <component name="RunManager" selected="JUnit.PostToSocialMediaConditionalTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="InheritanceWithPolyDemo" />
@@ -293,8 +285,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PostToSocialMediaConditionalTest.postToSocialMedia" />
         <item itemvalue="JUnit.PostToSocialMediaConditionalTest" />
+        <item itemvalue="JUnit.PostToSocialMediaConditionalTest.postToSocialMedia" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -310,7 +302,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562010547659</updated>
       <workItem from="1562010549094" duration="3813000" />
-      <workItem from="1562018725701" duration="397000" />
+      <workItem from="1562018725701" duration="682000" />
     </task>
     <servers />
   </component>
@@ -321,9 +313,18 @@
     <history-entry file="PostToSocialMediaConditionalTest_postToSocialMedia - 2019.07.01 at 17h 11m 45s.xml">
       <configuration name="PostToSocialMediaConditionalTest.postToSocialMedia" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PostToSocialMediaConditionalTest_postToSocialMedia - 2019.07.01 at 17h 16m 07s.xml">
+      <configuration name="PostToSocialMediaConditionalTest.postToSocialMedia" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PostToSocialMediaConditionalTest - 2019.07.01 at 17h 16m 13s.xml">
+      <configuration name="PostToSocialMediaConditionalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PostToSocialMediaConditionalTest - 2019.07.01 at 17h 16m 27s.xml">
+      <configuration name="PostToSocialMediaConditionalTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4210000" />
+    <option name="totallyTimeSpent" value="4495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="960" extended-state="6" />
@@ -402,30 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dummy/InstagramClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dummy/IgStory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PostToSocialMediaConditionalTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -440,20 +417,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PostToSocialMediaConditionalTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dummy/InstagramClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
+        <state relative-caret-position="210">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PostToSocialMediaConditional.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        <state relative-caret-position="328">
+          <caret line="28" column="85" selection-start-line="28" selection-start-column="85" selection-end-line="28" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dummy/IgStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PostToSocialMediaConditionalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>

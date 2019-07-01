@@ -8,7 +8,6 @@ import java.net.UnknownServiceException;
 public class PostToSocialMediaConditional implements PostToSocialMedia {
     Integer TWITTER_MAX_LEN_CHAR = 140;
 
-    @Override
     public String postToSocialMedia(String socialMediaType, String content) {
         String result = null;
         //THIS ALSO MANIFESTS ITSELF MORE COMMONLY AS GIANT SWITCH STATEMENTS
@@ -23,10 +22,14 @@ public class PostToSocialMediaConditional implements PostToSocialMedia {
             }
         } else if ("instagram".equals(socialMediaType.toLowerCase())) {
             String igAccountId = "igAccId";
-            InstagramClient instagramClient = new InstagramClient(igAccountId);
-            if (instagramClient.isHasAccountId()) {
-                IgStory igStory = instagramClient.createStory(igAccountId);
-                return convertInstagramSocialMediaUniqueIdToGdId(igStory.postToStoryAndGetId(content));
+            if(content.equals("a")){
+                InstagramClient instagramClient = new InstagramClient(igAccountId);
+                if (instagramClient.isHasAccountId()) {
+                    IgStory igStory = instagramClient.createStory(igAccountId);
+                    return convertInstagramSocialMediaUniqueIdToGdId(igStory.postToStoryAndGetId(content));
+                }
+            } else {
+                return "d";
             }
         } else if ("twitter".equals(socialMediaType.toLowerCase())) {
             TwitterClient twitterClient = new TwitterClient();
