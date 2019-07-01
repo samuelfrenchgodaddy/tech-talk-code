@@ -15,7 +15,8 @@ public class FacebookClient {
      * @throws UnknownServiceException
      */
     public String post(String message, String sessionId) throws UnknownServiceException {
-        throw new UnknownServiceException();
+        return "workedOKFacebook";
+        //throw new UnknownServiceException();
     }
     public void recoveryOperation(String sessionId){
         return;
