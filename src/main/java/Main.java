@@ -1,5 +1,6 @@
 public class Main {
 
+    //TODO this project's name is wrong - we are demoing replace conditional with polymorhism step by step
     public static void main(String[] args) {
         System.out.println("Hello World!");
         /*
