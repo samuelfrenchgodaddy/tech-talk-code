@@ -1,12 +1,9 @@
-import org.junit.*;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.Test;
 
 import java.util.*;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class PostToSocialMediaConditionalTest {
+class MainTest {
 
 
     private String aLongString = "this is a long string ";
@@ -17,7 +14,7 @@ class PostToSocialMediaConditionalTest {
     @BeforeEach
     void setup(){
         postToSocialMediaList.add(new PostToSocialMediaConditional());
-        postToSocialMediaList.add(new PostToSocialMediaConditionalExtractMethod());
+        postToSocialMediaList.add(new PostToSocialMediaConditionalExtractMethodPrep());
     }
 
     @Test

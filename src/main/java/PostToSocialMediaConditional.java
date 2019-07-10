@@ -27,6 +27,8 @@ public class PostToSocialMediaConditional implements PostToSocialMedia {
                 if (instagramClient.isHasAccountId()) {
                     IgStory igStory = instagramClient.createStory(igAccountId);
                     return convertInstagramSocialMediaUniqueIdToGdId(igStory.postToStoryAndGetId(content));
+                } else {
+                    return "ok";
                 }
             } else {
                 return "d";
