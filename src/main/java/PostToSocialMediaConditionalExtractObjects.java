@@ -1,6 +1,9 @@
 import PostToSocialMediaObjects.*;
 import PostToSocialMediaObjects.IndividualHandlers.*;
 
+/**
+ * Woohoo! Now we have all of our logic that is specific to one handler encapsulated into the handler object
+ */
 public class PostToSocialMediaConditionalExtractObjects implements PostToSocialMedia {
 
     public String postToSocialMedia(String socialMediaType, String content) {

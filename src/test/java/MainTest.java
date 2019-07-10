@@ -16,6 +16,7 @@ class MainTest {
         postToSocialMediaList.add(new PostToSocialMediaConditional());
         postToSocialMediaList.add(new PostToSocialMediaConditionalExtractedMethod());
         postToSocialMediaList.add(new PostToSocialMediaConditionalExtractObjects());
+        postToSocialMediaList.add(new PostToSocialMediaConditionalUseFactory());
     }
 
     @Test
