@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PostToSocialMediaConditionalTest {
 
+
+    private String aLongString = "this is a long string ";
     private PostToSocialMedia postToSocialMediaConditional = new PostToSocialMediaConditional();
 
     @Test
@@ -16,5 +18,11 @@ class PostToSocialMediaConditionalTest {
     void postToSocialMediaInstagram() {
         assert postToSocialMediaConditional.postToSocialMedia("instagram","a").equals("99");
         assert postToSocialMediaConditional.postToSocialMedia("instagram","b").equals("d");
+    }
+
+    @Test
+    void postToSocialMediaTwitter(){
+        System.out.println(postToSocialMediaConditional.postToSocialMedia("twitter", aLongString));
+        assert postToSocialMediaConditional.postToSocialMedia("twitter", aLongString).equals("this abc");
     }
 }

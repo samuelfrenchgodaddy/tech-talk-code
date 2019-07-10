@@ -6,7 +6,7 @@ import dummy.TwitterClient;
 import java.net.UnknownServiceException;
 
 public class PostToSocialMediaConditional implements PostToSocialMedia {
-    Integer TWITTER_MAX_LEN_CHAR = 140;
+    Integer TWITTER_MAX_LEN_CHAR = 5;
 
     public String postToSocialMedia(String socialMediaType, String content) {
         String result = null;
@@ -33,7 +33,8 @@ public class PostToSocialMediaConditional implements PostToSocialMedia {
             }
         } else if ("twitter".equals(socialMediaType.toLowerCase())) {
             TwitterClient twitterClient = new TwitterClient();
-            content = content.substring(0, Math.min(TWITTER_MAX_LEN_CHAR, content.length())); //<----- THIS COULD HAPPEN
+            //here we are modifying local variables that could have adverse effects
+            content = content.substring(0, Math.min(TWITTER_MAX_LEN_CHAR, content.length()));
             String existingMessageId = twitterClient.findMessageByContent(content);
             if (existingMessageId != null) {
                 return existingMessageId;

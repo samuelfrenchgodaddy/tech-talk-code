@@ -2,10 +2,10 @@ package dummy;
 
 public class TwitterClient {
     public String findMessageByContent(String content) {
-        return "id123";
+        return null;
     }
 
     public String postMessage(String content) {
-        return "id567";
+        return content + "abc";
     }
 }
