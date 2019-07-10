@@ -1,3 +1,4 @@
+import org.junit.internal.runners.statements.*;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.Test;
 
@@ -14,6 +15,7 @@ class MainTest {
     void setup(){
         postToSocialMediaList.add(new PostToSocialMediaConditional());
         postToSocialMediaList.add(new PostToSocialMediaConditionalExtractedMethod());
+        postToSocialMediaList.add(new PostToSocialMediaConditionalExtractObjects());
     }
 
     @Test
@@ -36,6 +38,19 @@ class MainTest {
     void postToSocialMediaTwitter(){
         for(PostToSocialMedia postToSocialMedia : postToSocialMediaList) {
             assert postToSocialMedia.postToSocialMedia("twitter", aLongString).equals("this abc");
+        }
+    }
+
+    @Test()
+    void postToSocialMediaUnsupported(){
+        for(PostToSocialMedia postToSocialMedia : postToSocialMediaList) {
+            Exception e = null;
+            try{
+                postToSocialMedia.postToSocialMedia("not valid", aLongString);
+            } catch (Exception e2){
+                e = e2;
+            }
+            assert e instanceof UnsupportedOperationException;
         }
     }
 }
