@@ -1,4 +1,8 @@
+import org.junit.*;
+import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.Test;
+
+import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -8,21 +12,34 @@ class PostToSocialMediaConditionalTest {
     private String aLongString = "this is a long string ";
     private PostToSocialMedia postToSocialMediaConditional = new PostToSocialMediaConditional();
 
+    Set<PostToSocialMedia> postToSocialMediaList = new HashSet<>();
+
+    @BeforeEach
+    void setup(){
+        postToSocialMediaList.add(new PostToSocialMediaConditional());
+        postToSocialMediaList.add(new PostToSocialMediaConditionalExtractMethod());
+    }
+
     @Test
     void postToSocialMediaFacebook() {
-        assert postToSocialMediaConditional.postToSocialMedia("facebook","abc").equals("workedOKFacebook");
-        assert postToSocialMediaConditional.postToSocialMedia("facebook","1234d").equals("workedOKFacebook");
+        for(PostToSocialMedia postToSocialMedia : postToSocialMediaList){
+            assert postToSocialMedia.postToSocialMedia("facebook","abc").equals("workedOKFacebook");
+            assert postToSocialMedia.postToSocialMedia("facebook","1234d").equals("workedOKFacebook");
+        }
     }
 
     @Test
     void postToSocialMediaInstagram() {
-        assert postToSocialMediaConditional.postToSocialMedia("instagram","a").equals("99");
-        assert postToSocialMediaConditional.postToSocialMedia("instagram","b").equals("d");
+        for(PostToSocialMedia postToSocialMedia : postToSocialMediaList) {
+            assert postToSocialMedia.postToSocialMedia("instagram", "a").equals("99");
+            assert postToSocialMedia.postToSocialMedia("instagram", "b").equals("d");
+        }
     }
 
     @Test
     void postToSocialMediaTwitter(){
-        System.out.println(postToSocialMediaConditional.postToSocialMedia("twitter", aLongString));
-        assert postToSocialMediaConditional.postToSocialMedia("twitter", aLongString).equals("this abc");
+        for(PostToSocialMedia postToSocialMedia : postToSocialMediaList) {
+            assert postToSocialMediaConditional.postToSocialMedia("twitter", aLongString).equals("this abc");
+        }
     }
 }
