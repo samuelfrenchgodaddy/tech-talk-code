@@ -7,14 +7,13 @@ class MainTest {
 
 
     private String aLongString = "this is a long string ";
-    private PostToSocialMedia postToSocialMediaConditional = new PostToSocialMediaConditional();
 
     Set<PostToSocialMedia> postToSocialMediaList = new HashSet<>();
 
     @BeforeEach
     void setup(){
         postToSocialMediaList.add(new PostToSocialMediaConditional());
-        postToSocialMediaList.add(new PostToSocialMediaConditionalExtractMethodPrep());
+        postToSocialMediaList.add(new PostToSocialMediaConditionalExtractedMethod());
     }
 
     @Test
@@ -36,7 +35,7 @@ class MainTest {
     @Test
     void postToSocialMediaTwitter(){
         for(PostToSocialMedia postToSocialMedia : postToSocialMediaList) {
-            assert postToSocialMediaConditional.postToSocialMedia("twitter", aLongString).equals("this abc");
+            assert postToSocialMedia.postToSocialMedia("twitter", aLongString).equals("this abc");
         }
     }
 }
